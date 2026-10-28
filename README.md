@@ -2,6 +2,9 @@
 
 ATS-friendly resume for Sarwar Hossain, Full Stack Software Engineer based in Bangladesh.
 
+[![Download PDF](https://img.shields.io/badge/Download-PDF-blue?style=for-the-badge&logo=adobeacrobatreader)](https://raw.githubusercontent.com/Sarwarhridoy4/sarwar-hossain-resume/main/Sarwar_Hossain_Resume.pdf)
+[![Download DOCX](https://img.shields.io/badge/Download-DOCX-green?style=for-the-badge&logo=microsoftword)](https://raw.githubusercontent.com/Sarwarhridoy4/sarwar-hossain-resume/main/Sarwar_Hossain_Resume.docx)
+
 ## Files
 
 - **Sarwar_Hossain_Resume.docx** — editable Word document

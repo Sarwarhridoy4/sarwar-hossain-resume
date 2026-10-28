@@ -54,3 +54,26 @@ Then convert to PDF:
 ```bash
 soffice --headless --convert-to pdf --outdir . Sarwar_Hossain_Resume.docx
 ```
+
+### Download Buttons (plug into your portfolio)
+
+Copy the HTML below into your portfolio site. The buttons link directly to the GitHub raw files.
+
+> **Note:** GitHub raw URLs require the repository to be **public** for unauthenticated downloads. If the repo stays private, host the `.pdf` and `.docx` on your own portfolio/server and point the `href` there instead.
+
+**PDF Download:**
+
+```html
+<a href="https://raw.githubusercontent.com/Sarwarhridoy4/sarwar-hossain-resume/main/Sarwar_Hossain_Resume.pdf" download="Sarwar_Hossain_Resume.pdf" style="display:inline-block;padding:10px 20px;background:#1F3A5F;color:#fff;text-decoration:none;border-radius:6px;font-family:sans-serif;font-weight:600;">
+  &#x1F4BE; Download Resume (PDF)
+</a>
+```
+
+**DOCX Download:**
+
+```html
+<a href="https://raw.githubusercontent.com/Sarwarhridoy4/sarwar-hossain-resume/main/Sarwar_Hossain_Resume.docx" download="Sarwar_Hossain_Resume.docx" style="display:inline-block;padding:10px 20px;background:#1F3A5F;color:#fff;text-decoration:none;border-radius:6px;font-family:sans-serif;font-weight:600;margin-left:10px;">
+  &#x1F4C4; Download Resume (DOCX)
+</a>
+```
+

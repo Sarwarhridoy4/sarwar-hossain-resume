@@ -6,6 +6,7 @@ ATS-friendly resume for Sarwar Hossain, Full Stack Software Engineer based in Ba
 
 - **Sarwar_Hossain_Resume.docx** — editable Word document
 - **Sarwar_Hossain_Resume.pdf** — application-ready PDF (selectable text)
+- **generate_resume.py** — Python script that generates the DOCX using `python-docx`
 
 ## Profile
 
@@ -38,4 +39,18 @@ ATS-friendly resume for Sarwar Hossain, Full Stack Software Engineer based in Ba
 
 ## About
 
-This resume is ATS-optimized: single-column layout, standard section headings, selectable text, no tables or graphics. Built with Python (`python-docx`) and LibreOffice.
+This resume is ATS-optimized: single-column layout, standard section headings, selectable text, no tables or graphics. Built with Python (`python-docx`) using `generate_resume.py` and converted to PDF via LibreOffice.
+
+### Regenerate the DOCX
+
+```bash
+uv run generate_resume.py
+# or
+pip install python-docx && python generate_resume.py
+```
+
+Then convert to PDF:
+
+```bash
+soffice --headless --convert-to pdf --outdir . Sarwar_Hossain_Resume.docx
+```

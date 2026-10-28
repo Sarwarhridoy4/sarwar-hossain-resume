@@ -355,7 +355,7 @@ def main():
     r4 = p4.add_run("Certificate of Completion - Sarwar Hossain")
     style_run(r4, size=10, italic=True, color=SUBTLE)
 
-    out_path = "/home/sarwar-hossain/Desktop/updated_resume/Sarwar_Hossain_Resume.docx"
+    out_path = "Sarwar_Hossain_Resume.docx"
     doc.save(out_path)
     print(f"Saved DOCX to {out_path}")
 
